@@ -1,0 +1,195 @@
+#sec1{
+    background-image: url(brisket.webp);
+    background-size: cover;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+}
+.inbox1lg{
+    padding: 100px 0px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.bi-cart-check-fill{
+    color: rgb(173, 127, 28);
+    font-size: 25px;
+}
+.b3{
+    color: white;
+    font-size: 25px;
+}
+#sec2{
+    background-image: url(brisket1.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inbox2lg{
+    padding: 100px 0px;
+    text-align: center;
+
+}
+#sec3{
+    background-image: url(local\ image.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inbox3lg{
+    padding: 100px 0px;
+    text-align: center;
+    color: aliceblue;
+    height:600px ;
+}
+#sec4{
+    background-image: url(catering.jpg);
+    background-size: cover;
+    background-color: aliceblue;
+}
+.inbox41g{
+    display: flex;
+    flex-direction: column;
+}
+#sec5{
+   background-image: url(cutting\ image.jfif);
+   
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: black;
+    opacity: 0.8;
+}
+.inbox5lg{
+    padding: 100px 0px;
+    text-align: center;
+
+   
+}
+#sec6{
+    background-image: url(masala\ bottle.avif);
+    background-size: cover;
+    color: aliceblue;
+    opacity: 0.8;
+}
+.inbox6lg{
+    padding: 100px 0px;
+    text-align: center;
+    height: 500px;
+    font-size: 25px;
+}
+#sec7{
+    background-image: url(couple1.avif);
+    background-size: cover;
+    color: white;
+}
+.inbox7lg{
+    padding: 100px 0px;
+    text-align: center;
+    height: 500px;
+}
+#sec8{
+    background-image: url(family.jpg);
+    background-size: cover;
+    color: aliceblue;
+    background-color: aqua;
+    opacity: 0.8;
+}
+.inbox8lg{
+    padding: 100px 0px;
+    text-align: center;
+    min-height: 200px;
+}
+.trans{
+    background-color: rgba(255,166, 0, 0.671)
+}
+#sec9{
+    background-image: url(cutting\ man2.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.inbox9lg{
+    padding: 100px 0px;
+    text-align: center;
+    min-height: 200px;
+}
+.trans{
+    background-color: rgba(0,0,0, 0.397);
+}
+#sec10{
+    background-color:rgb(65, 60, 60);
+}
+.inbox1{
+    padding: 70px 0px;
+    background-image: url(r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+.inbox2{
+    min-height: 100px;
+    color: white;
+}
+.inbox3{
+    color: white;
+    min-height: 50px;
+}
+.inbox4{
+    color: white;
+    height: 15px;
+}
+.list1{
+    margin: 0;
+    padding: 0;
+}
+.bil{
+    color: orangered;
+}
+.list2{
+    margin: 0;
+    padding: 0;
+}
+#se11{
+    background-color: black;
+}
+.m{
+    text-align: center;
+}
+.inbox5{
+    margin-top: 20px;
+}
+.lo{
+    font-size: 25px;
+    color: orangered;
+    margin: 5px;
+}
+.inbox6{
+    margin-top: 20px;
+    text-align: center;
+}
+@media (max-width:768px){
+    #sec10{
+        overflow: hidden;
+        height: 800px;
+    }
+    #sec10 .container .row div{
+        width: 100%;
+        text-align: center;
+    }
+    #sec10 .container .row div a{
+        text-decoration: underline;
+        color: white;
+    }
+    #sec10 .container .row .inbox2 ul{
+        width: fit-content;
+        margin: auto;
+        text-align: start;
+    }
+    #sec10 .container .row .inbox3 ul{
+        width: fit-content;
+        margin: auto;
+        text-align: start;
+    }
+}
